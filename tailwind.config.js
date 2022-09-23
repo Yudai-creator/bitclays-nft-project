@@ -6,6 +6,15 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    colors: {
+      'bg': '#1C0F0B',
+      'accent': '#C89356',
+      'tertiary': '#7F3612',
+      'text': '#F8E1DA',
+      'gradient_1': '#754128',
+      'gradient_2': '#8A3B13',
+      'gradient_3': '#7E3511',
+    },
     screens: {
       'sm': '640px',
       // => @media (min-width: 640px) { ... }
