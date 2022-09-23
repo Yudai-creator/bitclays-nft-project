@@ -55,7 +55,8 @@ export default function Home() {
 
       <main>
 
-        <section className='hero p-4'>
+        <section className='hero p-4 relative'>
+          <img id="hero_section_blur" className='blur-xl' src="https://ik.imagekit.io/u33i3sss0/bitclays_nft/hero_section_blur_fzEjeH3-g.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1663952547164" alt="hero blur graphic"></img>
           <div className='hero__text p-8'>
             <h1 className='text-3xl mb-4'>
               A journey through the <span className='text-accent'>history</span> of language and education.
@@ -64,13 +65,25 @@ export default function Home() {
               Be one of our first community members with the chance to win a free piece of artwork from our collection.
             </p>
           </div>
-
+          <img id='metal_table' src="https://ik.imagekit.io/u33i3sss0/bitclays_nft/metal_table_aSdHX0GSG.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1663946758978" alt="metal table"></img>
           <div className='hero__action p-8'>
             <AppButton/>
           </div>
 
-          <p className='p-8'>More than <span className='text-accent'>100</span> people have joined us. <span className='text-accent'>What are you waiting for?</span></p>
+          <p className='p-8 text-lg'>More than <span className='text-accent'>100</span> people have joined us. <span className='text-accent'>What are you waiting for?</span></p>
           
+        </section>
+
+        <section className='featured relative p-4 mt-12'>
+          <h2 className='text-xl font-bold mb-4 flex justify-center'>
+          An NFT collection <br></br> that holds history.
+          </h2>
+          <div className='featured__artwork flex'>
+            <img className='artwork_img' src='https://ik.imagekit.io/u33i3sss0/bitclays_nft/rock_table.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1663946785472' alt='rock table'></img>
+            <img className='artwork_img' src='https://ik.imagekit.io/u33i3sss0/bitclays_nft/metal_table_aSdHX0GSG.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1663946758978' alt='metal table'></img>
+            <img className='artwork_img' src='https://ik.imagekit.io/u33i3sss0/bitclays_nft/copper_table_O66oIZTsO.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1663946850412' alt='copper table'></img>
+          </div>
+          <p className='text-center mt-4'>BitClayNFT is inspired by the first written cuneiform scripts ever found as written language.</p>
         </section>
         
       </main>
