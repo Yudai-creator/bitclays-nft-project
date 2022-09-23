@@ -18,9 +18,9 @@ export default function Home() {
 
       <header className="p-4 flex items-center justify-between">
         <div className="header__logo flex items-center">
-        <svg xmlns="http://www.w3.org/2000/svg" width="38" height="48" viewBox="0 0 38 48">
+        {/* <svg xmlns="http://www.w3.org/2000/svg" width="38" height="48" viewBox="0 0 38 48">
           <text id="bitclays_logo" transform="translate(0 39)" fill="#c89356" font-size="24" font-family="SegoeUIHistoric, Segoe UI Historic"><tspan x="0" y="0">𒀭</tspan></text>
-        </svg>
+        </svg> */}
           <p className='text-accent'>Bitclays</p>
         </div>
 
