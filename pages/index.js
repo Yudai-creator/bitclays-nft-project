@@ -10,10 +10,6 @@ export default function Home() {
         <title>Bitclays NFT</title>
         <meta name="description" content="Bitclays is a community driven Web3 project, aiming to create a community of creators and builders around Stacks Blockchain." />
         <link rel="icon" href="/favicon.ico" />
-
-        <link rel="preconnect" href="https://fonts.googleapis.com"/>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/> 
       </Head>
 
       <header className="p-4 flex items-center justify-between">
