@@ -35,7 +35,7 @@ export default function Home() {
           </ul>
         </div>
 
-        <div className='header__socials flex justify-between'>
+        <div className='header__socials flex justify-between items-center'>
           <a href='#'>
             <svg  xmlns="http://www.w3.org/2000/svg" width="16.924" height="15.091" viewBox="0 0 16.924 15.091">
               <path d="M17.185,7.78c.011.165.011.33.011.494,0,5.034-3.49,10.835-9.869,10.835A9.178,9.178,0,0,1,2,17.4a6.635,6.635,0,0,0,5.145-1.58A3.531,3.531,0,0,1,3.9,13.179a4.033,4.033,0,0,0,.655.059,3.382,3.382,0,0,0,.914-.13A3.738,3.738,0,0,1,2.688,9.371V9.324a3.269,3.269,0,0,0,1.567.483A3.914,3.914,0,0,1,2.709,6.636a4.064,4.064,0,0,1,.472-1.921A9.6,9.6,0,0,0,10.334,8.7a4.734,4.734,0,0,1-.086-.873,3.649,3.649,0,0,1,3.469-3.808,3.324,3.324,0,0,1,2.534,1.2,6.493,6.493,0,0,0,2.2-.92,3.758,3.758,0,0,1-1.525,2.1,6.471,6.471,0,0,0,2-.59A7.884,7.884,0,0,1,17.185,7.78Z" transform="translate(-2 -4.019)" fill="#f8e1da"/>
@@ -52,27 +52,33 @@ export default function Home() {
 
       <main>
 
-        <section className='hero p-4 relative'>
+        <section className='hero p-4 relative flex justify-between'>
           <img id="hero_section_blur" className='blur-xl' src="https://ik.imagekit.io/u33i3sss0/bitclays_nft/hero_section_blur_fzEjeH3-g.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1663952547164" alt="hero blur graphic"></img>
-          <div className='hero__text p-8'>
-            <h1 className='text-3xl mb-4'>
-              A journey through the <span className='text-accent'>history</span> of language and education.
-            </h1>
-            <p>
-              Be one of our first community members with the chance to win a free piece of artwork from our collection.
-            </p>
-          </div>
-          <img id='metal_table' src="https://ik.imagekit.io/u33i3sss0/bitclays_nft/metal_table_aSdHX0GSG.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1663946758978" alt="metal table"></img>
-          <div className='hero__action p-8'>
-            <AppButton/>
+
+          <div>
+            <div className='hero__text p-8 md:p-0'>
+              <h1 className='text-3xl mb-4'>
+                A journey through the <span className='text-accent'>history</span> of language and education.
+              </h1>
+              <p>
+                Be one of our first community members with the chance to win a free piece of artwork from our collection.
+              </p>
+            </div>
+            <img id='metal_table' className='sm:hidden' src="https://ik.imagekit.io/u33i3sss0/bitclays_nft/metal_table_aSdHX0GSG.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1663946758978" alt="metal table"></img>
+            <div className='hero__action p-8'>
+              <AppButton/>
+            </div>
+
+            <p className='p-8 text-lg'>More than <span className='text-accent'>100</span> people have joined us. <span className='text-accent'>What are you waiting for?</span></p>
           </div>
 
-          <p className='p-8 text-lg'>More than <span className='text-accent'>100</span> people have joined us. <span className='text-accent'>What are you waiting for?</span></p>
-          
+          <div className='hero__imgs hidden sm:block'>
+            <img className='imgs' src='https://ik.imagekit.io/u33i3sss0/bitclays_nft/artwork_press_APu2tmtox.png?ik-sdk-version=javascript-1.4.3&updatedAt=1664139653363' alt='space table'/>
+          </div>
         </section>
 
         <section className='featured relative p-4 mt-12'>
-          <img id="featured_section_blur" className='blur-xl' src='https://ik.imagekit.io/u33i3sss0/bitclays_nft/featured_section_blur_37LGiQXzG.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1663947161770' alt='feature blur'></img>
+          <img id="featured_section_blur" className='blur-xl overflow-hidden' src='https://ik.imagekit.io/u33i3sss0/bitclays_nft/featured_section_blur_37LGiQXzG.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1663947161770' alt='feature blur'></img>
           <h2 className='text-xl font-bold mb-4 flex justify-center'>
           An NFT collection <br></br> that holds history.
           </h2>
@@ -82,6 +88,51 @@ export default function Home() {
             <img className='artwork_img' src='https://ik.imagekit.io/u33i3sss0/bitclays_nft/copper_table_O66oIZTsO.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1663946850412' alt='copper table'></img>
           </div>
           <p className='text-center mt-4'>BitClayNFT is inspired by the first written cuneiform scripts ever found as written language.</p>
+        </section>
+
+        <section className='history relative mt-10 p-4'>
+          <img className='history__original_script w-1/2 rounded-lg' src='https://ik.imagekit.io/u33i3sss0/bitclays_nft/original_script_u1R8g4i6L.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1663947034908' alt='original'/>
+
+          <div className='history_text relative mt-8'>
+            <img className='blur-xl overflow-hidden absolute' src='https://ik.imagekit.io/u33i3sss0/bitclays_nft/story_sectiion_blur_1_4KFZSCUQUy.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1663947162010' alt='history blur'/>
+            <p className='mt-4'>
+              One of the most significant creations of Mankind is also one 
+              of the most taken for granted. The written word. How could 
+              we as a species advance into the complex civilizations, that 
+              we also take for granted, without this underappreciated bit 
+              of technology? The short answer is that we couldn't.
+            </p>
+            <p className='mt-4'>
+              The Sumerian people inhabited ancient Mesopotamia. This 
+              area is also known as the Fertile Crescent, due to Mesopotamia 
+              being situated between the Tigris and Euphrates Rivers. 
+              Thanks to the seasonal flooding of these rivers, the land 
+              was fertile and lush. This allowed for our ancestors to 
+              develop an Agrarian civilization as opposed to being 
+              hunter/gatherers.
+            </p>
+            <img className='blur-xl overflow-hidden absolute' src='https://ik.imagekit.io/u33i3sss0/bitclays_nft/story_sectiion_blur_2_RMcMTzpfh.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1663947161811' alt='history blur'/>
+            <p className='mt-4'>
+              This new way of life required a way to keep records reliably. 
+              Prior to this time, humans used oral tradition to record their 
+              history. However this growing Nation State with its new 
+              technologies would not be able to rely on oral tradition for 
+              long. As more people settled in and near the cities, the 
+              inhabitants needed to be able to keep records related to 
+              agriculture and trade especially.
+            </p>
+            <img className='blur-xl overflow-hidden absolute' src='https://ik.imagekit.io/u33i3sss0/bitclays_nft/story_sectiion_blur_3_t_aTRixT2.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1663947161813' alt='history blur'/>
+            <p className='mt-4'>
+              The first Sumerian pictographs etched into clay appeared 
+              around 3,500 B.C. and we call this early form of writing 
+              Cuneiform. These first tablets did not contain stories of the 
+              Mesopotamian gods such as Enki or Enlil, nor did they enthrall 
+              the reader with ancient myths and legends. These first tablets 
+              simply were ledgers related to the trade and movement of 
+              grain and other agricultural commodities.
+            </p>
+          </div>
+
         </section>
         
       </main>

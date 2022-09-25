@@ -31,11 +31,32 @@ a {
   top: -280px;
   left: 10%;
   max-width: 750px;
+  
+}
+
+@media (min-width: 768px) { 
+  #hero_section_blur{
+    left: 30%;
+  }
+}
+
+@media (min-width: 1024px) { 
+  #hero_section_blur{
+    left: 60%;
+  }
+}
+
+@media (min-width: 1280px) { 
+  #hero_section_blur{
+    top: -350px;
+    left: 60%;
+    max-width: 950px;
+  }
 }
 
 #featured_section_blur{
   position: absolute;
-  
+
 }
 
 #metal_table{
@@ -49,3 +70,15 @@ a {
 .artwork_img{
   width: 40%;
 }
+
+.hero__imgs{
+  z-index: 2;
+  width: 80%;
+}
+
+
+.history__original_script{
+  margin: 0 auto;
+  box-shadow: 0 5px 20px #7f361294;
+}
+
