@@ -72,6 +72,7 @@ export default function Home() {
         </section>
 
         <section className='featured relative p-4 mt-12'>
+          <img id="featured_section_blur" className='blur-xl' src='https://ik.imagekit.io/u33i3sss0/bitclays_nft/featured_section_blur_37LGiQXzG.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1663947161770' alt='feature blur'></img>
           <h2 className='text-xl font-bold mb-4 flex justify-center'>
           An NFT collection <br></br> that holds history.
           </h2>
