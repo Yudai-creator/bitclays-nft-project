@@ -8,6 +8,7 @@ module.exports = {
     extend: {},
     colors: {
       'bg': '#1C0F0B',
+      'bg_secondary' : '#26150F',
       'accent': '#C89356',
       'tertiary': '#7F3612',
       'text': '#F8E1DA',

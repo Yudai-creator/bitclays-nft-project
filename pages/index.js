@@ -64,7 +64,7 @@ export default function Home() {
                 Be one of our first community members with the chance to win a free piece of artwork from our collection.
               </p>
             </div>
-            <img id='metal_table' className='sm:hidden' src="https://ik.imagekit.io/u33i3sss0/bitclays_nft/metal_table_aSdHX0GSG.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1663946758978" alt="metal table"></img>
+            <img id='metal_table' className='sm:hidden' src="https://ik.imagekit.io/u33i3sss0/bitclays_nft/metal_table_wFLyXChs9.png?ik-sdk-version=javascript-1.4.3&updatedAt=1664560834434" alt="metal table"></img>
             <div className='hero__action p-8'>
               <AppButton/>
             </div>
@@ -83,9 +83,9 @@ export default function Home() {
           An NFT collection <br></br> that holds history.
           </h2>
           <div className='featured__artwork flex'>
-            <img className='artwork_img' src='https://ik.imagekit.io/u33i3sss0/bitclays_nft/rock_table.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1663946785472' alt='rock table'></img>
-            <img className='artwork_img' src='https://ik.imagekit.io/u33i3sss0/bitclays_nft/metal_table_aSdHX0GSG.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1663946758978' alt='metal table'></img>
-            <img className='artwork_img' src='https://ik.imagekit.io/u33i3sss0/bitclays_nft/copper_table_O66oIZTsO.PNG?ik-sdk-version=javascript-1.4.3&updatedAt=1663946850412' alt='copper table'></img>
+            <img className='artwork_img' src='https://ik.imagekit.io/u33i3sss0/bitclays_nft/clay_table_6rzEjkQE3.png?ik-sdk-version=javascript-1.4.3&updatedAt=1664560844431' alt='clay table'></img>
+            <img className='artwork_img' src='https://ik.imagekit.io/u33i3sss0/bitclays_nft/metal_table_wFLyXChs9.png?ik-sdk-version=javascript-1.4.3&updatedAt=1664560834434' alt='metal table'></img>
+            <img className='artwork_img' src='https://ik.imagekit.io/u33i3sss0/bitclays_nft/copper_table_G75wrT0vg.png?ik-sdk-version=javascript-1.4.3&updatedAt=1664560797335' alt='copper table'></img>
           </div>
           <p className='text-center mt-4'>BitClayNFT is inspired by the first written cuneiform scripts ever found as written language.</p>
         </section>
@@ -133,6 +133,14 @@ export default function Home() {
             </p>
           </div>
 
+        </section>
+
+        <section className='community bg-bg_secondary h-40'>
+          <h2 className='text-accent'>
+            A community driven project
+          </h2>
+
+          <AppButton/>
         </section>
         
       </main>
