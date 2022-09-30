@@ -12,6 +12,7 @@ module.exports = {
       'accent': '#C89356',
       'tertiary': '#7F3612',
       'text': '#F8E1DA',
+      'text_secondary' : '#ECCCA7',
       'gradient_1': '#754128',
       'gradient_2': '#8A3B13',
       'gradient_3': '#7E3511',

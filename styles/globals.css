@@ -15,6 +15,7 @@ body {
   font-family: 'Nunito', sans-serif;
 
   color: #F8E1DA;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -67,8 +68,12 @@ a {
   opacity: .1;
 }
 
+.featured__artwork{
+  margin: 0 auto;
+}
+
 .artwork_img{
-  width: 40%;
+  width: 30%;
 }
 
 .hero__imgs{
