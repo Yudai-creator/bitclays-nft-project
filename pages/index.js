@@ -149,15 +149,15 @@ export default function Home() {
           </h2>
           <div className="journey_roadmap">
             <RoadmapCard id="1" title="Form a community" 
-            text="We're a group of builders, designers & community 
-                  members, we're building in public, & since BitclayNFT 
+            text="We are a group of builders, designers & community 
+                  members, we are building in public, & since BitclayNFT 
                   is a community-based project. We believe in our 
                   community taking the lead in the decisions we take."
 
             />
 
             <RoadmapCard id="2" title="Launch the collection website " 
-            text="We're a project that strongly believes in bringing 
+            text="We are a project that strongly believes in bringing 
                   Normies to the web3 realms. That said, we take it 
                   upon ourselves to create a seamless fiat on-ramp 
                   experience from the very get-go."
@@ -165,10 +165,10 @@ export default function Home() {
             />
 
             <RoadmapCard id="3" title="DAO foundation introduced" 
-            text="A community project wouldn't be true if we didn't put 
+            text="A community project would not be true if we did not put 
                   our words where our mouth is and formed a DAO. 
                   BitclayNFT will serve as the genesis collection that 
-                  enables its holder's governance tokens issued for the DAO."
+                  enables its holder&apos;s governance tokens issued for the DAO."
 
             />
 
@@ -182,7 +182,7 @@ export default function Home() {
 
             <RoadmapCard id="5" title="Drop PFP collection" 
             text="We come from a strong background in NFTs art
-                  culture & understand the NFTs native community 
+                  culture and understand the NFTs native community 
                   needs the most. That said, a collection of PFP will 
                   be introduced after the first name we found in history. 
                   Kushim will be introduced."
