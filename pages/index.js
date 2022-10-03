@@ -1,8 +1,26 @@
+import React from 'react';
 import Head from 'next/head'
-import Image from 'next/image'
+
+// import Image from 'next/image'
+
+
 import styles from '../styles/Home.module.css'
 import AppButton from '../components/AppButton'
 import RoadmapCard from '../components/RoadmapCard'
+
+
+
+// const imageKitLoader = ({ src, width, quality }) => {
+//   if(src[0] === "/") src = src.slice(1);
+//   const params = [`w-${width}`];
+//   if (quality) {
+//     params.push(`q-${quality}`);
+//   }
+//   const paramsString = params.join(",");
+//   var urlEndpoint = "https://ik.imagekit.io/u33i3sss0";
+//   if(urlEndpoint[urlEndpoint.length-1] === "/") urlEndpoint = urlEndpoint.substring(0, urlEndpoint.length - 1);
+//   return `${urlEndpoint}/${src}?tr=${paramsString}`
+// }
 
 
 export default function Home() {
@@ -63,7 +81,17 @@ export default function Home() {
                 Be one of our first community members with the chance to win a free piece of artwork from our collection.
               </p>
             </div>
-            <img id="metal_table" className="sm:hidden" src="https://ik.imagekit.io/u33i3sss0/bitclays_nft/metal_table_wFLyXChs9.png?ik-sdk-version=javascript-1.4.3&updatedAt=1664560834434" alt="metal table"></img>
+            <img id="metal_table" className="sm:hidden" src="https://ik.imagekit.io/u33i3sss0/bitclays_nft/metal_table_wFLyXChs9.png?ik-sdk-version=javascript-1.4.3&updatedAt=1664560834434" alt="metal table"/>
+
+            {/* Image component */}
+            {/* <Image
+              id="metal_table"
+              className="sm:hidden"
+              loader={imageKitLoader}
+              src= "https://ik.imagekit.io/u33i3sss0/bitclays_nft/metal_table_wFLyXChs9.png?ik-sdk-version=javascript-1.4.3&updatedAt=1664560834434"
+              alt="metal table"
+              layout="fill"
+            /> */}
             <div className="hero__action p-8 transition-all ease-in hover:translate-y-2">
               <AppButton/>
             </div>
@@ -100,7 +128,7 @@ export default function Home() {
               of the most taken for granted. The written word. How could 
               we as a species advance into the complex civilizations, that 
               we also take for granted, without this underappreciated bit 
-              of technology? The short answer is that we couldn't.
+              of technology? The short answer is that we could not.
             </p>
             <p className="mt-4">
               The Sumerian people inhabited ancient Mesopotamia. This 
@@ -135,7 +163,7 @@ export default function Home() {
 
         </section>
 
-        <section className="community bg-bg_secondary h-80 flex flex-col justify-between items-center">
+        <section className="community p-4 bg-bg_secondary h-80 flex flex-col justify-between items-center">
           <h2 className="text-accent">
             A community driven project
           </h2>

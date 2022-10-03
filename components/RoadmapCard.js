@@ -1,3 +1,5 @@
+import React from 'react';
+
 const RoadmapCard = ({id, title, text}) => {
     return ( 
         <div className="bg-bg_secondary p-8 mb-8 w-3/4">
