@@ -163,7 +163,7 @@ export default function Home() {
 
         </section>
 
-        <section className="community p-4 bg-bg_secondary h-80 flex flex-col justify-between items-center">
+        <section className="community mt-24 mb-24 p-4 bg-bg_secondary h-80 flex flex-col justify-between items-center">
           <h2 className="text-accent">
             A community driven project
           </h2>
@@ -171,11 +171,15 @@ export default function Home() {
           <AppButton/>
         </section>
 
-        <section className="journey p-4 w-full flex flex-col justify-center items-center">
-          <h2 className="text-accent mb-8">
+        <section className="journey relative p-4  w-full flex flex-col justify-between items-center overflow-hidden">
+          <img id="rock_table_right" className="absolute" src="https://ik.imagekit.io/u33i3sss0/bitclays_nft/rock_table_right_RNyYUmNxm.png?ik-sdk-version=javascript-1.4.3&updatedAt=1664827317105" alt="rock table right"/>
+          <img id="rock_table_left" className="absolute" src="https://ik.imagekit.io/u33i3sss0/bitclays_nft/rock_table_left_t4vHSJmZq.png?ik-sdk-version=javascript-1.4.3&updatedAt=1664827319610" alt="rock table left"/>
+
+          <img id="journey_blur" className="blur-3xl overflow-hidden absolute" src="https://ik.imagekit.io/u33i3sss0/bitclays_nft/journey_section_blur_MXoP5bVrW.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1663947161746" alt="journey blur"/>
+          <h2 className="text-accent text-2xl font-bold mb-8">
             The Journey
           </h2>
-          <div className="journey_roadmap">
+          <div className="journey_roadmap w-3/4 max-w-md">
             <RoadmapCard id="1" title="Form a community" 
             text="We are a group of builders, designers & community 
                   members, we are building in public, & since BitclayNFT 
@@ -217,6 +221,7 @@ export default function Home() {
 
             />
           </div>
+          
         </section>
         
       </main>

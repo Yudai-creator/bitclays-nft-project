@@ -87,3 +87,23 @@ a {
   box-shadow: 0 5px 20px #7f361294;
 }
 
+#rock_table_right{
+  left: 45%;
+  top: 0;
+
+  width: 60%;
+  max-width: 24rem;
+}
+
+#journey_blur{
+  width: 150%;
+  top: 35%;
+}
+
+#rock_table_left{
+  top: 85%;
+  left: 2%;
+
+  width: 60%;
+  max-width: 24rem;
+}
