@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types'
 
 const RoadmapCard = ({id, title, text}) => {
     return ( 
@@ -13,5 +14,11 @@ const RoadmapCard = ({id, title, text}) => {
         </div>
      );
 }
+
+RoadmapCard.propTypes = {
+    id: PropTypes.string,
+    title: PropTypes.string,
+    text: PropTypes.string
+  }
  
 export default RoadmapCard;
