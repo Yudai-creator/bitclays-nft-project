@@ -71,13 +71,13 @@ export default function Home() {
 
       <main>
 
-        <section className="hero relative w-full flex justify-between">
-          <div>
-            <div className="hero__text p-8 md:p-0">
-              <h1 className="text-3xl mb-4">
+        <section className="hero relative p-8 w-full  flex justify-between">
+          <div className="lg:mt-16 lg:ml-16">
+            <div className="hero__text">
+              <h1 className="text-3xl mb-4 lg:text-5xl">
                 A journey through the <span className="text-accent">history</span> of language and education.
               </h1>
-              <p>
+              <p className="lg:text-xl">
                 Be one of our first community members with the chance to win a free piece of artwork from our collection.
               </p>
             </div>
@@ -92,14 +92,14 @@ export default function Home() {
               alt="metal table"
               layout="fill"
             /> */}
-            <div className="hero__action p-8 transition-all ease-in hover:translate-y-2">
-              <AppButton/>
-            </div>
+            
+            <AppButton/>
+            
 
-            <p className="p-8 text-lg">More than <span className="text-accent">100</span> people have joined us. <span className="text-accent">What are you waiting for?</span></p>
+            <p className="text-lg">More than <span className="text-accent">100</span> people have joined us. <span className="text-accent">What are you waiting for?</span></p>
           </div>
 
-          <div className="hero__imgs hidden sm:block w-full">
+          <div className="hero__imgs hidden sm:block w-full mr-10">
             <img className="imgs" src="https://ik.imagekit.io/u33i3sss0/bitclays_nft/artwork_press_APu2tmtox.png?ik-sdk-version=javascript-1.4.3&updatedAt=1664139653363" alt="space table"/>
           </div>
           <img id="hero_section_blur" className="blur-xl" src="https://ik.imagekit.io/u33i3sss0/bitclays_nft/hero_section_blur_fzEjeH3-g.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1663952547164" alt="hero blur graphic"></img>
