@@ -91,19 +91,35 @@ a {
   left: 45%;
   top: 0;
 
-  width: 60%;
-  max-width: 24rem;
+  width: 50%;
+  max-width: 20rem;
+}
+
+@media (min-width: 1024px) { 
+  #rock_table_right{
+    left: 70%;
+  }
 }
 
 #journey_blur{
   width: 150%;
-  top: 35%;
+  top: 30%;
 }
 
 #rock_table_left{
-  top: 85%;
+  top: 90rem;
   left: 2%;
 
-  width: 60%;
-  max-width: 24rem;
+  width: 50%;
+  max-width: 20rem;
+}
+
+@media (min-width: 1024px) { 
+  #rock_table_left{
+    top: 85rem;
+  }
+}
+
+footer{
+  background-image: url('../assets/circuit-board.svg');
 }

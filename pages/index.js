@@ -32,7 +32,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <header className="p-4 relative flex items-center justify-between">
+      <header className="p-8 relative flex items-center justify-between">
         <div className="header__logo flex items-center">
         {/* <svg xmlns="http://www.w3.org/2000/svg" width="38" height="48" viewBox="0 0 38 48">
           <text id="bitclays_logo" transform="translate(0 39)" fill="#c89356" font-size="24" font-family="SegoeUIHistoric, Segoe UI Historic"><tspan x="0" y="0">𒀭</tspan></text>
@@ -71,7 +71,7 @@ export default function Home() {
 
       <main>
 
-        <section className="hero p-4 relative w-full flex justify-between">
+        <section className="hero relative w-full flex justify-between">
           <div>
             <div className="hero__text p-8 md:p-0">
               <h1 className="text-3xl mb-4">
@@ -105,32 +105,32 @@ export default function Home() {
           <img id="hero_section_blur" className="blur-xl" src="https://ik.imagekit.io/u33i3sss0/bitclays_nft/hero_section_blur_fzEjeH3-g.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1663952547164" alt="hero blur graphic"></img>
         </section>
 
-        <section className="featured relative p-4 mt-12">
-          <img id="featured_section_blur" className="blur-xl overflow-hidden" src="https://ik.imagekit.io/u33i3sss0/bitclays_nft/featured_section_blur_37LGiQXzG.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1663947161770" alt="feature blur"></img>
-          <h2 className="text-xl font-bold mb-4 flex justify-center">
+        <section className="featured relative p-8 mt-12">
+          <img id="featured_section_blur" className="blur-3xl overflow-hidden" src="https://ik.imagekit.io/u33i3sss0/bitclays_nft/featured_section_blur_37LGiQXzG.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1663947161770" alt="feature blur"></img>
+          <h2 className="text-xl font-bold mb-12 flex justify-center md:text-2xl lg:text-4xl">
           An NFT collection <br></br> that holds history.
           </h2>
-          <div className="featured__artwork flex">
-            <img className="artwork_img" src="https://ik.imagekit.io/u33i3sss0/bitclays_nft/clay_table_6rzEjkQE3.png?ik-sdk-version=javascript-1.4.3&updatedAt=1664560844431" alt="clay table"></img>
-            <img className="artwork_img" src="https://ik.imagekit.io/u33i3sss0/bitclays_nft/metal_table_wFLyXChs9.png?ik-sdk-version=javascript-1.4.3&updatedAt=1664560834434" alt="metal table"></img>
-            <img className="artwork_img" src="https://ik.imagekit.io/u33i3sss0/bitclays_nft/copper_table_G75wrT0vg.png?ik-sdk-version=javascript-1.4.3&updatedAt=1664560797335" alt="copper table"></img>
+          <div className="featured__artwork flex justify-center">
+            <img className="artwork_img max-w-xl" src="https://ik.imagekit.io/u33i3sss0/bitclays_nft/clay_table_6rzEjkQE3.png?ik-sdk-version=javascript-1.4.3&updatedAt=1664560844431" alt="clay table"></img>
+            <img className="artwork_img max-w-xl" src="https://ik.imagekit.io/u33i3sss0/bitclays_nft/metal_table_wFLyXChs9.png?ik-sdk-version=javascript-1.4.3&updatedAt=1664560834434" alt="metal table"></img>
+            <img className="artwork_img max-w-xl" src="https://ik.imagekit.io/u33i3sss0/bitclays_nft/copper_table_G75wrT0vg.png?ik-sdk-version=javascript-1.4.3&updatedAt=1664560797335" alt="copper table"></img>
           </div>
-          <p className="text-center mt-4">BitClayNFT is inspired by the first written cuneiform scripts ever found as written language.</p>
+          <p className="text-center mt-16 md:text-2xl">BitClayNFT is inspired by the first written cuneiform scripts ever found as written language.</p>
         </section>
 
-        <section className="history relative mt-10 p-4">
-          <img className="history__original_script w-1/2 rounded-lg" src="https://ik.imagekit.io/u33i3sss0/bitclays_nft/original_script_u1R8g4i6L.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1663947034908" alt="original"/>
+        <section className="history relative mt-28 p-4">
+          <img className="history__original_script w-1/2 max-w-lg rounded-lg md:rounded-2xl" src="https://ik.imagekit.io/u33i3sss0/bitclays_nft/original_script_u1R8g4i6L.JPG?ik-sdk-version=javascript-1.4.3&updatedAt=1663947034908" alt="original"/>
 
-          <div className="history_text relative mt-8">
-            <img className="blur-xl overflow-hidden absolute" src="https://ik.imagekit.io/u33i3sss0/bitclays_nft/story_sectiion_blur_1_4KFZSCUQUy.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1663947162010" alt="history blur"/>
-            <p id="story" className="mt-4">
+          <div className="history_text flex flex-col items-center p-8 relative mt-8">
+            <img className="blur-3xl overflow-hidden absolute -top-1" src="https://ik.imagekit.io/u33i3sss0/bitclays_nft/story_sectiion_blur_1_4KFZSCUQUy.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1663947162010" alt="history blur"/>
+            <p id="story" className="mt-4 shadow-md md:text-lg lg:text-2xl lg:max-w-xl max-w-lg">
               One of the most significant creations of Mankind is also one 
               of the most taken for granted. The written word. How could 
               we as a species advance into the complex civilizations, that 
               we also take for granted, without this underappreciated bit 
               of technology? The short answer is that we could not.
             </p>
-            <p className="mt-4">
+            <p className="mt-8 shadow-md md:text-lg lg:text-2xl lg:max-w-xl max-w-lg">
               The Sumerian people inhabited ancient Mesopotamia. This 
               area is also known as the Fertile Crescent, due to Mesopotamia 
               being situated between the Tigris and Euphrates Rivers. 
@@ -139,8 +139,8 @@ export default function Home() {
               develop an Agrarian civilization as opposed to being 
               hunter/gatherers.
             </p>
-            <img className="blur-xl overflow-hidden absolute" src="https://ik.imagekit.io/u33i3sss0/bitclays_nft/story_sectiion_blur_2_RMcMTzpfh.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1663947161811" alt="history blur"/>
-            <p className="mt-4">
+            <img className="blur-3xl overflow-hidden absolute top-1/3" src="https://ik.imagekit.io/u33i3sss0/bitclays_nft/story_sectiion_blur_2_RMcMTzpfh.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1663947161811" alt="history blur"/>
+            <p className="mt-8 shadow-md md:text-lg lg:text-2xl lg:max-w-xl max-w-lg">
               This new way of life required a way to keep records reliably. 
               Prior to this time, humans used oral tradition to record their 
               history. However this growing Nation State with its new 
@@ -149,8 +149,8 @@ export default function Home() {
               inhabitants needed to be able to keep records related to 
               agriculture and trade especially.
             </p>
-            <img className="blur-xl overflow-hidden absolute" src="https://ik.imagekit.io/u33i3sss0/bitclays_nft/story_sectiion_blur_3_t_aTRixT2.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1663947161813" alt="history blur"/>
-            <p className="mt-4">
+            <img className="blur-3xl overflow-hidden absolute w-full top-3/4" src="https://ik.imagekit.io/u33i3sss0/bitclays_nft/story_sectiion_blur_3_t_aTRixT2.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1663947161813" alt="history blur"/>
+            <p className="mt-8 shadow-md md:text-lg lg:text-2xl lg:max-w-xl max-w-lg">
               The first Sumerian pictographs etched into clay appeared 
               around 3,500 B.C. and we call this early form of writing 
               Cuneiform. These first tablets did not contain stories of the 
@@ -163,7 +163,7 @@ export default function Home() {
 
         </section>
 
-        <section className="community mt-24 mb-24 p-4 bg-bg_secondary h-80 flex flex-col justify-between items-center">
+        <section className="community mt-36 mb-24 p-4 bg-bg_secondary h-80 flex flex-col justify-between items-center">
           <h2 className="text-accent">
             A community driven project
           </h2>
@@ -176,7 +176,7 @@ export default function Home() {
           <img id="rock_table_left" className="absolute" src="https://ik.imagekit.io/u33i3sss0/bitclays_nft/rock_table_left_t4vHSJmZq.png?ik-sdk-version=javascript-1.4.3&updatedAt=1664827319610" alt="rock table left"/>
 
           <img id="journey_blur" className="blur-3xl overflow-hidden absolute" src="https://ik.imagekit.io/u33i3sss0/bitclays_nft/journey_section_blur_MXoP5bVrW.svg?ik-sdk-version=javascript-1.4.3&updatedAt=1663947161746" alt="journey blur"/>
-          <h2 className="text-accent text-2xl font-bold mb-8">
+          <h2 className="text-accent text-2xl lg:text-4xl font-bold mb-8">
             The Journey
           </h2>
           <div className="journey_roadmap w-3/4 max-w-md">
@@ -226,8 +226,14 @@ export default function Home() {
         
       </main>
 
-      <footer>
-        
+      <footer className="relative p-4  w-full bg-bg_secondary">
+        <h2 className="text-accent mb-8 font-bold md:text-2xl lg:text-3xl flex justify-center">Meet the crew on Discord</h2>
+        <div className="team flex items-center justify-between">
+          <div className="bg-bg w-1/4 h-32 rounded-md"></div>
+          <div className="bg-bg w-1/4 h-32 rounded-md"></div>
+          <div className="bg-bg w-1/4 h-32 rounded-md"></div>
+        </div>
+        <p className="mt-16 flex justify-center">Design and build by Yudai</p>
       </footer>
     </div>
   )
