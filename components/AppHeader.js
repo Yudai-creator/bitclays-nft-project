@@ -1,6 +1,6 @@
 const AppHeader = () => {
     return ( 
-        <header className="p-8 relative flex items-center justify-between">
+        <header className="lg:pl-16 lg:pr-16 lg:pt-8 p-8 relative flex items-center justify-between">
             <div className="header__logo flex items-center">
             {/* <svg xmlns="http://www.w3.org/2000/svg" width="38" height="48" viewBox="0 0 38 48">
             <text id="bitclays_logo" transform="translate(0 39)" fill="#c89356" font-size="24" font-family="SegoeUIHistoric, Segoe UI Historic"><tspan x="0" y="0">𒀭</tspan></text>

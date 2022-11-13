@@ -59,14 +59,13 @@ export default function Home() {
         
       </main>
 
-      <footer className="relative p-4  w-full bg-bg_secondary">
+      <footer className="relative p-8  w-full bg-bg_secondary">
         <h2 className="text-accent mb-8 font-bold md:text-2xl lg:text-3xl flex justify-center">Meet the crew on Discord</h2>
         <div className="team flex items-center justify-between">
-          <div className="bg-bg w-1/4 h-32 rounded-md"></div>
-          <div className="bg-bg w-1/4 h-32 rounded-md"></div>
-          <div className="bg-bg w-1/4 h-32 rounded-md"></div>
+          <div className="bg-[url('https://ik.imagekit.io/u33i3sss0/bitclays_nft/pfps/Explorer_2251_Gu3myR7H7.png?ik-sdk-version=javascript-1.4.3&updatedAt=1668323021447')] bg-contain bg-no-repeat w-1/3 h-64 rounded-md"></div>
+          <div className="bg-[url('https://ik.imagekit.io/u33i3sss0/bitclays_nft/pfps/Explorer_2251_Gu3myR7H7.png?ik-sdk-version=javascript-1.4.3&updatedAt=1668323021447')] bg-contain bg-no-repeat w-1/4 h-64 rounded-md"></div>
+          <div className="bg-[url('https://ik.imagekit.io/u33i3sss0/bitclays_nft/pfps/Explorer_2251_Gu3myR7H7.png?ik-sdk-version=javascript-1.4.3&updatedAt=1668323021447')] bg-contain bg-no-repeat w-1/4 h-64 rounded-md"></div>
         </div>
-        <p className="mt-16 flex justify-center">Design and build by Yudai</p>
       </footer>
     </div>
   )

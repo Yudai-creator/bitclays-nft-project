@@ -3,9 +3,9 @@ import AppButton from "./AppButton";
 const AppHero = () => {
     return ( 
         <section className="hero relative p-8 w-full  flex justify-between">
-          <div className="lg:mt-16 lg:ml-16">
+          <div className="lg:mt-8 lg:ml-8">
             <div className="hero__text">
-              <h1 className="text-3xl mb-4 lg:text-5xl">
+              <h1 className="text-3xl mb-4 lg:text-6xl">
                 A journey through the <span className="text-accent">history</span> of language and education.
               </h1>
               <p className="lg:text-xl">
@@ -13,21 +13,11 @@ const AppHero = () => {
               </p>
             </div>
             <img id="metal_table" className="sm:hidden" src="https://ik.imagekit.io/u33i3sss0/bitclays_nft/metal_table_wFLyXChs9.png?ik-sdk-version=javascript-1.4.3&updatedAt=1664560834434" alt="metal table"/>
-
-            {/* Image component */}
-            {/* <Image
-              id="metal_table"
-              className="sm:hidden"
-              loader={imageKitLoader}
-              src= "https://ik.imagekit.io/u33i3sss0/bitclays_nft/metal_table_wFLyXChs9.png?ik-sdk-version=javascript-1.4.3&updatedAt=1664560834434"
-              alt="metal table"
-              layout="fill"
-            /> */}
             
             <AppButton/>
             
 
-            <p className="text-lg">More than <span className="text-accent">100</span> people have joined us. <span className="text-accent">What are you waiting for?</span></p>
+            <p className="text-lg mt-16 lg:w-4/5">More than <span className="text-accent">100</span> people have joined us. <span className="text-accent">Build by the community, for the community.</span></p>
           </div>
 
           <video className="hidden md:block" width="100%" autoPlay loop playsInline>
